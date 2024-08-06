@@ -1,3 +1,4 @@
-teacher-service-network
+teacher-network
 backend
+backend-network
 vault-network
