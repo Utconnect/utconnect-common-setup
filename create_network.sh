@@ -9,6 +9,8 @@ if [ ! -f "$NETWORK_FILE" ]; then
     exit 1
 fi
 
+docker network prune
+
 # Read the file line by line
 while IFS= read -r network_name || [[ -n "$network_name" ]]; do
     # Trim whitespace
